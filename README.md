@@ -18,3 +18,7 @@ turn a standard unstyled web element into an element that matches close to the M
 Sometimes the most basic ways are the best
 Most frameworks like Angular Material style components that are coupled together with Javascript.
 With onecss you can get the same look with just CSS
+
+## More Notes
+onecss does not make opinions
+it has no default font so it will inherit whatever font you use

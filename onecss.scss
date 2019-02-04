@@ -1,3 +1,4 @@
+
 .onecss- {
   &mat-table {
     width: 100%;
@@ -25,7 +26,31 @@
   &mat-btn {
     background: #fff;
     border: 1px solid #ddd;
-    box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    -webkit-tap-highlight-color: #0000;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+    transform: translate3d(0,0,0);
+    transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    color: #000000de;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    &:focus, &:active {
+      background-color: #e1e1e1;
+    }
   }
   
   &mat-select {
