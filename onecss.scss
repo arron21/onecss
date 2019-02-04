@@ -1,0 +1,40 @@
+.onecss- {
+  &mat-table {
+    width: 100%;
+    border-collapse: collapse;
+    td {
+        padding: 0 24px;
+    }
+    thead {
+        opacity: .6;
+        font-size: 12px;
+        font-weight: 500;
+        td {
+            height: 56px;
+        }
+    }
+    tbody {
+        td {
+            height: 48px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            position: relative;
+        }
+    }
+  }
+
+  &mat-btn {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+  }
+  
+  &mat-select {
+    border: 1px solid #ccc;
+    padding: .5em;
+    border-radius: .25em;
+    cursor: pointer;
+  }
+  
+}
+
+
